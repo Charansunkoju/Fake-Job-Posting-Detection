@@ -18,3 +18,77 @@ In today's fast-paced digital landscape, online job postings have become a vital
 - Excel (Data Exploration and Visualization)
 - Machine Learning (Random Forest, Logistic Regression, Natural Language Processing).
 
+
+## Project Workflow
+
+1. Data Preprocessing (Python):
+
+Load the dataset using pandas.
+Handle missing values and duplicates.
+Convert categorical data into numerical format.
+Text Processing: Tokenization, stopword removal, removing HTML tags, and stemming.
+Feature Engineering: Create new relevant features like word count and keyword frequency.
+
+
+2. SQL Import & Exploration
+
+Store structured data (job title, company, location, etc.) in a MySQL database.
+
+Run SQL queries to explore insights such as:
+
+Total job postings per country and industry.
+
+Most common keywords in fraudulent job postings.
+
+Percentage of remote vs. non-remote jobs.
+
+3. Data Visualization (Excel & Python)
+
+Excel Pivot Tables: Break down fake vs. real job postings by sector, location, keyword frequency.
+
+Python Matplotlib/Seaborn:
+
+Bar charts for fraudulent job postings per country.
+
+Word cloud of frequently used terms in fake postings.
+
+Box plots showing differences in job descriptions.
+
+4. Statistical Analysis
+
+Hypothesis: Fake job postings contain certain buzzwords more frequently.
+
+Perform a word frequency analysis comparing real and fake postings.
+
+Use a chi-square test to check statistical significance of word usage.
+
+5. Machine Learning Model
+
+Feature Selection
+
+Structured data (job type, location, telecommuting status).
+
+Textual data (job description, requirements processed with TF-IDF).
+
+Model Training
+
+Compare models: Logistic Regression vs. Random Forest.
+
+Random Forest Classifier chosen due to high accuracy and feature importance analysis.
+
+Performance evaluation using:
+
+Accuracy
+
+Precision, Recall, and F1-score (crucial for fraud detection)
+
+ROC Curve & AUC score
+
+6. Business Impact & Integration
+
+A job portal can integrate this ML model to flag suspicious job postings.
+
+Admins can review flagged postings before approval.
+
+Users receive warnings about potential fake jobs, enhancing trust and safety
+
