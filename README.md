@@ -11,5 +11,10 @@ In today's fast-paced digital landscape, online job postings have become a vital
 - Enhance the credibility of job portals by flagging suspicious postings.
 
 
+## Tech Stack
 
+- Python (Data Cleaning, Machine Learning Model, Visualization)
+- SQL (Data Storage and Querying)
+- Excel (Data Exploration and Visualization)
+- Machine Learning (Random Forest, Logistic Regression, Natural Language Processing).
 
