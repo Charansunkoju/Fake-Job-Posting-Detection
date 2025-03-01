@@ -30,6 +30,7 @@ Text Processing: Tokenization, stopword removal, removing HTML tags, and stemmin
 Feature Engineering: Create new relevant features like word count and keyword frequency.
 
 
+
 2. SQL Import & Exploration
 
 Store structured data (job title, company, location, etc.) in a MySQL database.
@@ -46,32 +47,30 @@ Detecting Duplicate Job Posting.
 ![image](https://github.com/user-attachments/assets/e0c45e20-c6ac-4842-9730-14a6f640065d)
 
 
-Excel Pivot Tables: Break down fake vs. real job postings by sector, location, keyword frequency.
-
+Plotting Experienced vs Fraud Job Posting.
+Plotting Job Posting against the Presence of Logos.
+Statewise Fraud Job Postings.
+Global Distribution of Job Postings.
+Industry Level Fraud Analysis.
 
 
 
 4. Statistical Analysis
 
 Hypothesis: Fake job postings contain certain buzzwords more frequently.
-
 Perform a word frequency analysis comparing real and fake postings.
+Use a chi-square test to check the statistical significance of word usage.
 
-Use a chi-square test to check statistical significance of word usage.
+
 
 5. Machine Learning Model
-
-Feature Selection
-
 Structured data (job type, location, telecommuting status).
-
 Textual data (job description, requirements processed with TF-IDF).
-
 Model Training
-
 Compare models: Logistic Regression vs. Random Forest.
-
 Random Forest Classifier chosen due to high accuracy and feature importance analysis.
+
+
 
 Performance evaluation using:
 
