@@ -33,26 +33,23 @@ Feature Engineering: Create new relevant features like word count and keyword fr
 2. SQL Import & Exploration
 
 Store structured data (job title, company, location, etc.) in a MySQL database.
-
-Run SQL queries to explore insights such as:
-
+Run SQL queries to explore insights:
 Total job postings per country and industry.
-
 Most common keywords in fraudulent job postings.
-
 Percentage of remote vs. non-remote jobs.
+Detecting Duplicate Job Posting.
 
-3. Data Visualization (Excel & Python)
+
+
+3. Data Visualization (Excel)
+
+![image](https://github.com/user-attachments/assets/e0c45e20-c6ac-4842-9730-14a6f640065d)
+
 
 Excel Pivot Tables: Break down fake vs. real job postings by sector, location, keyword frequency.
 
-Python Matplotlib/Seaborn:
 
-Bar charts for fraudulent job postings per country.
 
-Word cloud of frequently used terms in fake postings.
-
-Box plots showing differences in job descriptions.
 
 4. Statistical Analysis
 
