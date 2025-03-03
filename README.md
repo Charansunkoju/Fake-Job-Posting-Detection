@@ -23,22 +23,22 @@ In today's fast-paced digital landscape, online job postings have become a vital
 
 1. Data Preprocessing (Python):
 
--Load the dataset using pandas.
--Handle missing values and duplicates.
--Convert categorical data into numerical format.
--Text Processing: Tokenization, stopword removal, removing HTML tags, and stemming.
--Feature Engineering: Create new relevant features like word count and keyword frequency.
+- Load the dataset using pandas.
+- Handle missing values and duplicates.
+- Convert categorical data into numerical format.
+- Text Processing: Tokenization, stopword removal, removing HTML tags, and stemming.
+- Feature Engineering: Create new relevant features like word count and keyword frequency.
 
 
 
 2. SQL Import & Exploration
 
--Store structured data (job title, company, location, etc.) in a MySQL database.
--Run SQL queries to explore insights:
--Total job postings per country and industry.
--Most common keywords in fraudulent job postings.
--Percentage of remote vs. non-remote jobs.
--Detecting Duplicate Job Posting.
+- Store structured data (job title, company, location, etc.) in a MySQL database.
+- Run SQL queries to explore insights:
+- Total job postings per country and industry.
+- Most common keywords in fraudulent job postings.
+- Percentage of remote vs. non-remote jobs.
+- Detecting Duplicate Job Posting.
 
 
 
@@ -47,11 +47,11 @@ In today's fast-paced digital landscape, online job postings have become a vital
 ![image](https://github.com/user-attachments/assets/e0c45e20-c6ac-4842-9730-14a6f640065d)
 
 
--Plotting Experienced vs Fraud Job Posting.
--Plotting Job Posting against the Presence of Logos.
--Statewise Fraud Job Postings.
--Global Distribution of Job Postings.
--Industry Level Fraud Analysis.
+- Plotting Experienced vs Fraud Job Posting.
+- Plotting Job Posting against the Presence of Logos.
+- Statewise Fraud Job Postings.
+- Global Distribution of Job Postings.
+- Industry Level Fraud Analysis.
 
 
 
@@ -64,11 +64,11 @@ In today's fast-paced digital landscape, online job postings have become a vital
 
 
 5. Machine Learning Model
--Structured data (job type, location, telecommuting status).
--Textual data (job description, requirements processed with TF-IDF).
--Model Training
--Compare models: Logistic Regression vs. Random Forest.
--A random forest classification was chosen due to high accuracy and feature importance analysis.
+- Structured data (job type, location, telecommuting status).
+- Textual data (job description, requirements processed with TF-IDF).
+- Model Training
+- Compare models: Logistic Regression vs. Random Forest.
+- A random forest classification was chosen due to high accuracy and feature importance analysis.
 
 
 
