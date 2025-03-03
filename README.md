@@ -57,9 +57,9 @@ In today's fast-paced digital landscape, online job postings have become a vital
 
 4. Statistical Analysis
 
--Hypothesis: Fake job postings contain certain buzzwords more frequently.
--Perform a word frequency analysis comparing real and fake postings.
--Use a chi-square test to check the statistical significance of word usage.
+- Hypothesis: Fake job postings contain certain buzzwords more frequently.
+- Perform a word frequency analysis comparing real and fake postings.
+- Use a chi-square test to check the statistical significance of word usage.
 
 
 
