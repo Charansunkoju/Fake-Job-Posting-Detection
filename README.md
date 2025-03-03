@@ -73,26 +73,6 @@ This project aims to develop an advanced **Fake Job Posting Detection System** u
 
 ---
 
-## 🚀 How to Run the Project
-
-1️⃣ **Clone the repository**
-```bash
- git clone https://github.com/your-username/fake-job-detection.git
- cd fake-job-detection
-```
-2️⃣ **Install dependencies**
-```bash
- pip install -r requirements.txt
-```
-3️⃣ **Run the Jupyter Notebook**
-```bash
- jupyter notebook
-```
-4️⃣ **Explore SQL queries using MySQL**
-5️⃣ **Visualize data insights in Excel**
-
----
-
 ## 📌 Conclusion
 This project presents a robust **Fake Job Posting Detection System**, utilizing **machine learning and statistical analysis** to safeguard job seekers from fraudulent postings. By leveraging **Python, SQL, Excel, and NLP**, we ensure an efficient and scalable approach to classifying job listings with high accuracy.
 
@@ -100,16 +80,6 @@ This project presents a robust **Fake Job Posting Detection System**, utilizing 
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-### 👨‍💻 Contributors
-- **Your Name** – [GitHub](https://github.com/your-username)  
-- **Other Contributors**
-
-🔗 **Feel free to contribute and improve this project!**
 
 
 
